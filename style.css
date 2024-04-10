@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Ali';
+    src: url('./PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+
+{
+    background-color: rgb(169, 178, 87);
+    color: springgreen;
+}
+
+
+/* p ,h1{ text-transform: uppercase ;
+    line-height: 80px;
+word-spacing: 50px;
+letter-spacing: 25px;
+    font-family: 'Ali'; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+font-size: xx-large; */
+
+font-size: xx-large;
+
+
+
+/* font-weight:200 ;
+font-style: italic; */
+
+} 
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+
+p{
+   text-align: justify;
+    text-shadow: 10px 10px 10px rgb(78, 5, 36) ;
+}
+
+
+/* #abc1{
+    word-spacing: 25px;
+    font-weight:bolder;
+} */
+#abc2{
+    word: spacing 30px; font-style: italic ;
+}
+
+.abc{
+    background-color: aqua;
+    box-shadow: 10px 10px 10px red;
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+input{
+    background-color: aqua;
+
+}
+input:hover { background-color: blue;
+    
+}
+
+input:active{
+    background: red;
+}
+a:link{
+    background-color:wheat;
+
+a:visited{
+    background-color: tomato;
+}
